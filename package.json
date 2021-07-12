@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "serve": "http-server ./build",
+    "serve:src": "http-server ./src",
+    "start": "node index"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "http-server": "^0.12.3",
+    "minify": "^7.0.2"
+  }
+}
